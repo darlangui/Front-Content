@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    font-family: "Roboto", sans-serif;
+}
+
+.card {
+    width: 360px;
+    padding: 24px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.2);
+}
+
+.card .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #a5a5a5;
+}
+
+.card .header h4 {
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.card .header span {
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.card .body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card .body .chart-container {
+    align-self: flex-end;
+    width: 128px;
+    height: 72px;
+    padding-bottom: 5px;
+}
+
+.card .body .percentage {
+    display: flex;
+    align-items: center;
+    color: #28d277;
+    margin-top: 32px;
+}
+
+.card .body .percentage span {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.card .body .percentage .value {
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0 0 0 8px;
+}
+
+.card .body .profit {
+    color: #2b2929;
+    font-weight: 500;
+    margin: 16px 0 0 0;
+    font-weight: 600;
+}
