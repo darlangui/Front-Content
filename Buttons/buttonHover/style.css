@@ -41,6 +41,7 @@ button span {
     color: #fff;
     border: 0.08em solid #fff;
     box-shadow: 0 0.4em 0.1em 0.019em #fff;
+    transition: all 1s;
 }
 
 button span:active {
@@ -49,6 +50,3 @@ button span:active {
     box-shadow: 0 0 0 0 #fff;
 }
 
-button span {
-    transition: all 1s;
-}
