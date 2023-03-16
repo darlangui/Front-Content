@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    gap: 10px;
+}
+
+.image {
+    height: 300px;
+    width: 200px;
+}
+
+.image.one {
+    background-color: #3db9b9;
+}
+
+.image.two {
+    background-color: #000000;
+}
+
+.image.three {
+    background-color: #28d277;
+}
+
+.image.four {
+    background-color: #5628ee;
+}
+
+
